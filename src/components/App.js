@@ -288,7 +288,26 @@ class App extends React.Component {
   };
 
   render() {
-    return <div className="App"></div>;
+    return (
+      <div className="App">
+        <Screen
+          state={this.state}
+          playPauseButtonClicked={this.playPauseButtonClicked}
+          currentlyOnPlayMusicScreen={this.currentlyOnPlayMusicScreen}
+        />
+        <Buttons
+          menuButtonClicked={this.menuButtonClicked}
+          selectButtonClicked={this.selectButtonClicked}
+          leftButtonClicked={this.leftButtonClicked}
+          rightButtonClicked={this.rightButtonClicked}
+          playPauseButtonClicked={this.playPauseButtonClicked}
+        />
+
+        <button className="rotate" onClick={this.rotatePod}>
+          <i className="fas fa-undo"></i>
+        </button>
+      </div>
+    );
   }
 }
 
