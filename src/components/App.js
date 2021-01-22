@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import ZingTouch from "zingtouch";
 import "lodash";
 import $ from "jquery";
