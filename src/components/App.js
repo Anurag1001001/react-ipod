@@ -1,3 +1,4 @@
+// Package Import
 import React from "react";
 import ZingTouch from "zingtouch";
 import "lodash";
@@ -67,14 +68,6 @@ class App extends React.Component {
   }
 
   menuButtonClicked = () => {
-    /* if (this.state.options === this.state.songs_sub_menu)
-      {
-          this.setState({
-              options: this.state.general_menu
-          });
-          return;
-      } */
-
     let screenMenuClassList = document.getElementsByClassName("screen-menu")[0]
       .classList;
     if (screenMenuClassList.contains("width-50")) {
