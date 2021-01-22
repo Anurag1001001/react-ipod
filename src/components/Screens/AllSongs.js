@@ -1,6 +1,7 @@
 import React from "react";
 import firebase from "firebase/app";
 import PlayMusic from "./PlayMusic";
+import "firebase/storage";
 class AllSongs extends React.Component {
   constructor() {
     super();
