@@ -1,3 +1,43 @@
+# React-ipod(Video Link): https://cutt.ly/dkgTuxa
+
+A Virtual i-pod using React Js
+
+## Tools ans libraries used
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" width=200><img src="https://www.gstatic.com/devrel-devsite/prod/v0fb4b1803f033e9961238a08d52e344eadd99129bc9fd30999fe77c5f5dcfd87/firebase/images/touchicon-180.png" width=125>
+
+1. React
+2. ZingTouch
+3. JQuery
+
+## Screenshots
+
+<img src="https://github.com/Anurag1001001/react-ipod/blob/master/src/images/1.PNG" width=500>
+<img src="https://github.com/Anurag1001001/react-ipod/blob/master/src/images/2.PNG" width=500>
+<img src="https://github.com/Anurag1001001/react-ipod/blob/master/src/images/3.PNG" width=500>
+<img src="https://github.com/Anurag1001001/react-ipod/blob/master/src/images/4.PNG" width=500>
+
+## Features
+
+1. Rotation-On simulation. (Device rotates and so does screen and buttons).
+2. Firebase Storage is used. Songs are streamed from Google's high speed Firebase Storage.
+3. Instructions are mentioned on the screen. No room for any type of confusion.
+4. Action buttons light up when a song is being played.
+5. Lightening fast React JS based app.
+6. More songs can be added to the database with small changes here and there in the code. (Currently 6 songs for illustration)
+7. Swipe Enabled, i.e. One can swipe through the 4 buttons given in the circular portion to navigate through the menu.
+8. Songs can be switched without going to the All Songs screen again and again. (using the left and right arrow buttons provided in the Circular Actions Button Section).
+
+## How to use?
+
+1. In the group of circular action buttons section (See the screenshots), the upper-most button is the menu button. left and right buttons are navigation buttons(to navigate in All songs only). The bottom-most button is the Play/Pause button to stop or play the current song.
+2. To navigate in the menu, just swipe clockwise if you want to select an item which is available below the currently selected item. And similarly, swipe anti-clockwise if you want to select an item which is available above the currently selected item.
+3. Go to All Songs in the Music Section to view a list of all songs available currently on the Cloud Storage. (Make sure you are connected to the internet).
+4. To play a song click the "Select" button. Also to select a section from the list of Sections in the menu, press "Select Button".
+5. To change a song while another one is being played, click on the left or right arrow buttons and click on the Play/Pause button on the bottom.
+6. To rotate the screen, press the small circular button with `Rotation` symbol on the right mid on the app.
+7. Songs can be found in the Music/All Songs Section. All other pages are dummy pages for illustration purposes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
